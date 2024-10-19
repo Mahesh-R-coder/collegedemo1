@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - Assignments</title>
+    <link rel="stylesheet" href="ass.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="closebtn" onclick="closeNav()">×</button>
+        <a href="index.html">Student Details</a>
+        <a href="assignments.html">Assignments</a>
+        <a href="results.html">Results</a>
+    </div>
+
+    <div id="main">
+        <span class="openbtn" onclick="openNav()">☰</span>
+        <div id="content">
+            <h1>Assignments</h1>
+            <div class="main-content">
+                <div class="assignment-card">
+                    <h2>Assignment 1: Introduction to Programming</h2>
+                    <p><strong>Description:</strong> Complete the programming exercises in Chapter 2 of the textbook.</p>
+                    <p><strong>Due Date:</strong> October 25, 2024</p>
+                    <p><strong>Status:</strong> <span class="status pending">Pending</span></p>
+                </div>
+    
+                <div class="assignment-card">
+                    <h2>Assignment 2: Data Structures Project</h2>
+                    <p><strong>Description:</strong> Implement a binary tree and perform various operations.</p>
+                    <p><strong>Due Date:</strong> November 15, 2024</p>
+                    <p><strong>Status:</strong> <span class="status completed">Completed</span></p>
+                </div>
+                
+                <!-- Additional assignments can be added here -->
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Student Portal. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
